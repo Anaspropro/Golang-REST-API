@@ -60,7 +60,7 @@ migrate -path migrations -database "postgresql://user:password@localhost:5432/db
 go mod download
 
 # Update dependencies
-go get -u ./...
+go get -u ./...:
 
 # Tidy dependencies
 go mod tidy
